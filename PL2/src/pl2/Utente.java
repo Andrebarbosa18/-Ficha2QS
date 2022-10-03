@@ -22,4 +22,8 @@ public class Utente {
     public String getNome(){
         return nome;
     }
+    
+    public String toString(){
+        return nome + " | " + genero + " | " + idade + " | " + altura + " | " + peso + " | " + IMC;
+    }
 }
